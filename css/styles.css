@@ -227,6 +227,7 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 .portfolio-category {
     font-weight: 400;
@@ -234,6 +235,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-top: 0;
 }
 .visually-hidden {
   position: absolute;
