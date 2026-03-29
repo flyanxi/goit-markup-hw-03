@@ -8,6 +8,11 @@ body {
     color: #434455;
     background-color: #ffffff;
 }
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 .container {
     max-width: 1158px;
     margin: 0 auto;
@@ -46,7 +51,7 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 48px;
+    margin-right: 0;
 }
 .logo-span {
     color: #4D5AE5;
@@ -68,8 +73,10 @@ ul {
 }
 .contacts-list {
     display: flex;
-    gap: 16px;
-    flex-direction: wrap;
+    gap: 32px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 .contacts-link {
     font-size: 16px;
@@ -87,6 +94,13 @@ ul {
     background-color: #2E2F42;
     padding: 188px 0;
     text-align: center;
+}
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 .hero-title {
     font-size: 56px;
@@ -133,6 +147,7 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 .features {
     padding: 120px 0;    
@@ -159,7 +174,7 @@ ul {
     padding: 120px 0;
 }
 .team .section-title {
-    margin-bottom: 64px;
+    margin-bottom: 96px;
 }
 .team-text {
     padding: 32px 16px;
@@ -186,10 +201,10 @@ ul {
     padding: 120px 0;
 }
 .portfolio .section-title {
-    margin-bottom: 64px;
+    margin-bottom: 96px;
 }
 .portfolio-content-wrapper {
-    padding: 24px 16px;
+    padding: 16px 24px;
     border: 1px solid #E7E9FC;
     border-top: none;
     border-radius: 0 0 4px 4px;
